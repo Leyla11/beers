@@ -18,10 +18,12 @@ const Liquor = () => {
     },[])
 
   return (
+    <div>
     <div className="container">
     {liquors.map(liquor => (
         <InfoLiquor key={liquor.title} info={liquor}/>
     ))}
+    </div>
 
     </div>
   )

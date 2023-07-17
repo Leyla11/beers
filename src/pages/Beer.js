@@ -19,10 +19,12 @@ export const Beer = () => {
     }, [])
 
     return (
-        <div className='container'>
+        <div>
+        <div className="container">
             {beers.map(beer => (
                 <InfoBeer key={beer.title} info={beer} />
             ))}
+            </div>
         </div>
     )
 }

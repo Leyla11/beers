@@ -1,0 +1,84 @@
+.navbar>ol{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navbar>ol>li {
+    list-style: none;
+}
+
+.navbar>ol>li>a {
+    display: flex;
+    text-decoration: none;
+    color: #592031;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.homecont {
+    display: flex;
+    align-content: center;
+}
+
+.infoliquors{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.infobeer>img {
+    width: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.infocontact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    padding: 20px;
+}
+
+.infocontact>p {
+    color: #592031;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 25px;
+}
+
+.infocontact>img {
+    width: 100px;
+}
+
+.containercontact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}

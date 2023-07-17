@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <div>
         <h2>Follow in</h2>
-        <div className='container'>
+        <div className='containercontact'>
             {datas.map(data =>(
                 <InfoContact key={data.title} info={data}/>
             ))}
